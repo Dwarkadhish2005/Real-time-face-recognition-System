@@ -12,7 +12,7 @@ from datetime import datetime
 
 # Supabase credentials
 SUPABASE_URL = "https://xccejnrpvhnqbzpjymvz.supabase.co"
-SUPABASE_KEY = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InhjY2VqbnJwdmhucWJ6cGp5bXZ6Iiwicm9sZSI6InNlcnZpY2Vfcm9sZSIsImlhdCI6MTczODYzMTcyNSwiZXhwIjoyMDU0MjA3NzI1fQ.KFj9OJ13Ax5rTC-nE6RcxL4eAjdQEpiL5bBgZeOAQZ4"
+SUPABASE_KEY = "give your own key"
 supabase: Client = create_client(SUPABASE_URL, SUPABASE_KEY)
 
 cap = cv2.VideoCapture(0)
